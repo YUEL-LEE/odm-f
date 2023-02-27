@@ -1,0 +1,67 @@
+.main {
+  text-align: center;
+  font-weight: bold;
+  margin-left: -130px;
+  margin-top: 100px;
+}
+
+.Email {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.Password {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.RePassword {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.SignUp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-left: 63px;
+  padding-right: 63px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  color: white;
+  background-color: blue;
+  border: 0px;
+  border-radius: 5px;
+}
