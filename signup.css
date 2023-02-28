@@ -1,70 +1,55 @@
-.main {
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
+* {
+  font-family: "Pretendard";
+}
+
+.main {
+  display: block;
+  width: 200px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text {
-  text-align: center;
-  font-weight: bold;
+  width: 100%;
+  text-align: justify;
   margin-top: 100px;
+  font-weight: 900;
 }
 
-.Email {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  border: 0px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px gray;
-}
-
-.Password {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.Input {
+  width: 200px;
+  height: 35px;
   margin-top: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 0px;
 
-  border: 0px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px gray;
-}
-
-.RePassword {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  border: 0px;
+  box-sizing: border-box;
+  border: none;
   border-radius: 5px;
   box-shadow: 1px 1px 5px gray;
 }
 
 .SignUp {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   margin-top: 30px;
-  padding-left: 63px;
-  padding-right: 63px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0;
+  box-sizing: border-box;
 
+  font-weight: 900;
   color: white;
   background-color: blue;
-  border: 0px;
+  border: none;
   border-radius: 5px;
 }
