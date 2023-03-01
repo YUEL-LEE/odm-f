@@ -1,23 +1,48 @@
-.main {
-    text-align: center;
+.top {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 300px;
+    grid-template-columns: 450px 450px;
 }
 
-.top {
-    display: block;
-    background-image: linear-gradient(
-        to right,
-        lightblue 50%,
-        lightskyblue 50%
-    );
-    width: 600px;
+.a {
+    display: inline-block;
+    width: 450px;
     height: 300px;
+    background-color: lightblue;
+}
+
+.b {
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    background-color: lightskyblue;
 }
 
 .bottom {
-    display: block;
-    background-image: linear-gradient(to right,lightsteelblue,royalblue),
-        linear-gradient(to right, royalblue, blue);
-    background-repeat: no-repeat;
-    width: 600px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 300px;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.c {
+    display: inline-block;
+    width: 300px;
     height: 300px;
+    background-color: lightsteelblue;
+}
+
+.d {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: royalblue;
+}
+
+.e {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
 }
