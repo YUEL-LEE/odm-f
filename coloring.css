@@ -1,0 +1,23 @@
+.main {
+    text-align: center;
+}
+
+.top {
+    display: block;
+    background-image: linear-gradient(
+        to right,
+        lightblue 50%,
+        lightskyblue 50%
+    );
+    width: 600px;
+    height: 300px;
+}
+
+.bottom {
+    display: block;
+    background-image: linear-gradient(to right,lightsteelblue,royalblue),
+        linear-gradient(to right, royalblue, blue);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+}
